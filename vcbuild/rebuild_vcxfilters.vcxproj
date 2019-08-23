@@ -44,19 +44,19 @@
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>generated\$(Configuration)\$(PlatformName)\</OutDir>
-    <IntDir>$(OutDir)\$(ProjectName)</IntDir>
+    <IntDir>$(OutDir)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>generated\$(Configuration)\$(PlatformName)\</OutDir>
-    <IntDir>$(OutDir)\$(ProjectName)</IntDir>
+    <IntDir>$(OutDir)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>generated\$(Configuration)\$(PlatformName)\</OutDir>
-    <IntDir>$(OutDir)\$(ProjectName)</IntDir>
+    <IntDir>$(OutDir)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>generated\$(Configuration)\$(PlatformName)\</OutDir>
-    <IntDir>$(OutDir)\$(ProjectName)</IntDir>
+    <IntDir>$(OutDir)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemGroup>
     <CustomBuild Include="genvcxfilters.d">
