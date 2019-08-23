@@ -1,0 +1,2822 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+   <ItemGroup>
+      <Filter Include="src">
+         <UniqueIdentifier>{0e8c4b3f-bde7-4c4a-bf9e-1150d97205d5}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core">
+         <UniqueIdentifier>{f231bd00-3de6-4302-bcc2-e87bc9b19f5b}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\gc">
+         <UniqueIdentifier>{c4683011-ef31-4c9a-9723-a5c3d0f735fa}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\internal">
+         <UniqueIdentifier>{0ff2f3ca-993f-4c30-8db4-7d97d121d87a}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\internal\array">
+         <UniqueIdentifier>{345ed4c8-0b3f-48ad-959f-d2f134417f46}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\internal\util">
+         <UniqueIdentifier>{793b7483-a209-4b5d-bc5d-c57d23fc223f}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\stdc">
+         <UniqueIdentifier>{fa1b5467-a792-4025-85ed-985d127b5053}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\stdcpp">
+         <UniqueIdentifier>{d2d9c7bc-a1f5-4696-8c05-ec75ea75a06e}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sync">
+         <UniqueIdentifier>{60bbfd06-b8fa-483f-9646-79bdfe17ccbb}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys">
+         <UniqueIdentifier>{1787722b-d855-4949-9c48-3a07fc85a759}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\bionic">
+         <UniqueIdentifier>{411a8b06-04eb-4aae-9282-67a7513f7041}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\darwin">
+         <UniqueIdentifier>{e6cbecee-aa1a-44bb-8b1f-928943748702}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\darwin\mach">
+         <UniqueIdentifier>{b61b3ef4-049e-485b-9484-68e2e4455e34}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\darwin\netinet">
+         <UniqueIdentifier>{12213db8-76d8-4780-8969-0126e6f0c3f9}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\darwin\sys">
+         <UniqueIdentifier>{f77a0851-9d13-454a-94c8-4f47b72152f9}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\dragonflybsd">
+         <UniqueIdentifier>{7f65a9db-2919-47b8-9c4d-e95818ca9c52}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\dragonflybsd\netinet">
+         <UniqueIdentifier>{e65a36f6-c141-4071-a992-bc7a6bcff468}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\dragonflybsd\sys">
+         <UniqueIdentifier>{19142059-e37a-4449-88f4-50f29b9ffdcf}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\freebsd">
+         <UniqueIdentifier>{0b688dac-bacb-4bac-9d2c-ac308cac8103}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\freebsd\netinet">
+         <UniqueIdentifier>{aa55e8ea-2a62-4ee5-af82-eeab54f3ba07}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\freebsd\sys">
+         <UniqueIdentifier>{c7c3277f-a9c7-4b34-8641-37d45db28ebf}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\linux">
+         <UniqueIdentifier>{33a5aa15-a095-4ba8-bb46-41f803131929}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\linux\netinet">
+         <UniqueIdentifier>{b1f0850a-f472-40f8-a47b-001173be0000}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\linux\sys">
+         <UniqueIdentifier>{8cc8c347-bcd4-4578-b27b-19842c3201df}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\netbsd">
+         <UniqueIdentifier>{1d80da10-d8de-4b10-bd13-76e591de5a34}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\netbsd\sys">
+         <UniqueIdentifier>{83e55b38-a444-4fec-aa6c-3e50d025c5e1}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\openbsd">
+         <UniqueIdentifier>{f558f739-4418-4755-92c6-a5a1f9a37baa}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\openbsd\sys">
+         <UniqueIdentifier>{e8f893a4-ab00-407f-b262-861198f82743}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix">
+         <UniqueIdentifier>{dec053cc-4b75-4370-ad02-ce2b4d7b2e5b}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix\arpa">
+         <UniqueIdentifier>{42ddfb09-f886-4ab3-96e8-96f1260aa83c}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix\net">
+         <UniqueIdentifier>{bfc93a85-d802-4327-85ca-15fb95131475}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix\netinet">
+         <UniqueIdentifier>{6ed5a0c7-735f-4ed5-9dfd-f6addd31d492}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix\sys">
+         <UniqueIdentifier>{e1196099-777c-4e71-acb0-35ace544ad66}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\solaris">
+         <UniqueIdentifier>{794aee25-0317-45fa-8973-2f12d5b2555c}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\solaris\sys">
+         <UniqueIdentifier>{25b73f0a-1238-4911-9ea9-e3ae66277bb2}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\windows">
+         <UniqueIdentifier>{864feacc-6a30-45f7-8a90-b6eff1c27368}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\etc">
+         <UniqueIdentifier>{b58a2636-ae6a-497f-9b59-679b53dfd185}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\etc\linux">
+         <UniqueIdentifier>{0e446b71-ae1f-4777-be2c-a413e36dcf13}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\gc">
+         <UniqueIdentifier>{6eb94c62-2f60-47f4-bb94-fa49c24cb866}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\gc\impl">
+         <UniqueIdentifier>{a1482128-e4b7-4fbc-a507-8e03551d6ffd}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\gc\impl\conservative">
+         <UniqueIdentifier>{00645652-d875-4051-aeb5-3bccf3d61849}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\gc\impl\manual">
+         <UniqueIdentifier>{8c3db3ff-4ebc-4291-b02a-72d65df2a272}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\gc\impl\proto">
+         <UniqueIdentifier>{ae89cee8-9cf8-4be6-b0db-33197684c289}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\rt">
+         <UniqueIdentifier>{ff23ec94-e6e6-4575-84f7-cccba01ed304}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\rt\backtrace">
+         <UniqueIdentifier>{2a2fe872-6ad8-47ac-b3ff-22c8295e72db}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\rt\typeinfo">
+         <UniqueIdentifier>{fb295355-b17d-4822-9d52-539e6dfdefd1}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\rt\util">
+         <UniqueIdentifier>{90683677-dabc-4d35-b771-6c58d0e9ab20}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\rt\util\container">
+         <UniqueIdentifier>{2247d194-9348-4c63-92a5-88b64fbfb66c}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\atomic.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\attribute.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\bitop.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\checkedint.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\cpuid.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\demangle.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\exception.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\gc\config.d">
+         <Filter>src\core\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\gc\gcinterface.d">
+         <Filter>src\core\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\gc\registry.d">
+         <Filter>src\core\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\abort.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\appending.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\capacity.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\casting.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\comparison.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\concatenation.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\construction.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\equality.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\array\utils.d">
+         <Filter>src\core\internal\array</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\arrayop.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\attributes.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\convert.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\dassert.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\hash.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\lifetime.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\parseoptions.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\spinlock.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\string.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\traits.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\utf.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\util\array.d">
+         <Filter>src\core\internal\util</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\lifetime.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\math.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\memory.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\runtime.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\simd.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\assert_.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\complex.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\config.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\ctype.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="..\..\druntime\src\core\stdc\errno.c">
+         <Filter>src\core\stdc</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\errno.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\fenv.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\float_.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\inttypes.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\limits.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\locale.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\math.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\signal.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\stdarg.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\stddef.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\stdint.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\stdio.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\stdlib.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\string.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\tgmath.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\time.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\wchar_.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdc\wctype.d">
+         <Filter>src\core\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\allocator.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\array.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\exception.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\new_.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\string.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\string_view.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\typeinfo.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\type_traits.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\vector.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\xutility.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\barrier.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\condition.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\config.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\event.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\exception.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\mutex.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\rwmutex.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sync\semaphore.d">
+         <Filter>src\core\sync</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\bionic\fcntl.d">
+         <Filter>src\core\sys\bionic</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\bionic\string.d">
+         <Filter>src\core\sys\bionic</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\bionic\unistd.d">
+         <Filter>src\core\sys\bionic</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\crt_externs.d">
+         <Filter>src\core\sys\darwin</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\dlfcn.d">
+         <Filter>src\core\sys\darwin</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\execinfo.d">
+         <Filter>src\core\sys\darwin</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\dyld.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\getsect.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\kern_return.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\loader.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\port.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\semaphore.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\thread_act.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\netinet\in_.d">
+         <Filter>src\core\sys\darwin\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\pthread.d">
+         <Filter>src\core\sys\darwin</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\string.d">
+         <Filter>src\core\sys\darwin</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\sys\cdefs.d">
+         <Filter>src\core\sys\darwin\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\sys\event.d">
+         <Filter>src\core\sys\darwin\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\sys\mman.d">
+         <Filter>src\core\sys\darwin\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\dlfcn.d">
+         <Filter>src\core\sys\dragonflybsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\execinfo.d">
+         <Filter>src\core\sys\dragonflybsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\netinet\in_.d">
+         <Filter>src\core\sys\dragonflybsd\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\pthread_np.d">
+         <Filter>src\core\sys\dragonflybsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\string.d">
+         <Filter>src\core\sys\dragonflybsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\cdefs.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\elf.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\elf32.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\elf64.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\elf_common.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\event.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\link_elf.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\mman.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\socket.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\_bitset.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\sys\_cpuset.d">
+         <Filter>src\core\sys\dragonflybsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\dragonflybsd\time.d">
+         <Filter>src\core\sys\dragonflybsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\dlfcn.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\execinfo.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\netinet\in_.d">
+         <Filter>src\core\sys\freebsd\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\pthread_np.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\string.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\cdefs.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\elf.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\elf32.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\elf64.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\elf_common.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\event.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\link_elf.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\mman.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\mount.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\_bitset.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\sys\_cpuset.d">
+         <Filter>src\core\sys\freebsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\time.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\freebsd\unistd.d">
+         <Filter>src\core\sys\freebsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\config.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\dlfcn.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\elf.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\epoll.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\errno.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\execinfo.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\fcntl.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\ifaddrs.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\link.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\netinet\in_.d">
+         <Filter>src\core\sys\linux\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\netinet\tcp.d">
+         <Filter>src\core\sys\linux\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sched.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\stdio.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\string.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\auxv.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\eventfd.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\file.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\inotify.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\mman.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\prctl.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\signalfd.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\socket.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\sysinfo.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\time.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\sys\xattr.d">
+         <Filter>src\core\sys\linux\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\termios.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\time.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\timerfd.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\tipc.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\linux\unistd.d">
+         <Filter>src\core\sys\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\dlfcn.d">
+         <Filter>src\core\sys\netbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\execinfo.d">
+         <Filter>src\core\sys\netbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\string.d">
+         <Filter>src\core\sys\netbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\elf.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\elf32.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\elf64.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\elf_common.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\event.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\featuretest.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\link_elf.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\sys\mman.d">
+         <Filter>src\core\sys\netbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\netbsd\time.d">
+         <Filter>src\core\sys\netbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\dlfcn.d">
+         <Filter>src\core\sys\openbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\string.d">
+         <Filter>src\core\sys\openbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\cdefs.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\elf.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\elf32.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\elf64.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\elf_common.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\link_elf.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\sys\mman.d">
+         <Filter>src\core\sys\openbsd\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\openbsd\time.d">
+         <Filter>src\core\sys\openbsd</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\aio.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\arpa\inet.d">
+         <Filter>src\core\sys\posix\arpa</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\config.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\dirent.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\dlfcn.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\fcntl.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\grp.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\iconv.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\inttypes.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\libgen.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\mqueue.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\net\if_.d">
+         <Filter>src\core\sys\posix\net</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\netdb.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\netinet\in_.d">
+         <Filter>src\core\sys\posix\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\netinet\tcp.d">
+         <Filter>src\core\sys\posix\netinet</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\poll.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\pthread.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\pwd.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sched.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\semaphore.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\setjmp.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\signal.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\spawn.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\stdio.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\stdlib.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\filio.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\ioccom.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\ioctl.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\ipc.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\mman.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\msg.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\resource.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\select.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\shm.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\socket.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\stat.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\statvfs.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\time.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\ttycom.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\types.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\uio.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\un.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\utsname.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\sys\wait.d">
+         <Filter>src\core\sys\posix\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\syslog.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\termios.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\time.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\ucontext.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\unistd.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\utime.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\dlfcn.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\elf.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\execinfo.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\libelf.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\link.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elf.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elftypes.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elf_386.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elf_amd64.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elf_notes.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\elf_SPARC.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\link.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\priocntl.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\procset.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\sys\types.d">
+         <Filter>src\core\sys\solaris\sys</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\solaris\time.d">
+         <Filter>src\core\sys\solaris</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\accctrl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\aclapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\aclui.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\basetsd.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\basetyps.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\cderr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\cguid.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\com.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\comcat.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\commctrl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\commdlg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\core.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\cpl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\cplext.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\custcntl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dbghelp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dbghelp_types.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dbt.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dde.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ddeml.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dhcpcsdk.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dlgs.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\dll.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\docobj.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\errorrep.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\exdisp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\exdispid.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\httpext.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\idispids.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\imagehlp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\imm.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\intshcut.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ipexport.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\iphlpapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ipifcons.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\iprtrmib.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\iptypes.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\isguids.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lm.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmaccess.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmalert.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmapibuf.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmat.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmaudit.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmbrowsr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmchdev.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmconfig.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmcons.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmerr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmerrlog.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmmsg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmremutl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmrepl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmserver.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmshare.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmsname.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmstats.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmsvc.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmuse.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmuseflg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lmwksta.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\lzexpand.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mciavi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mcx.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mgmtapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mmsystem.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\msacm.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mshtml.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\mswsock.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\nb30.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\nddeapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\nspapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ntdef.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ntdll.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ntldap.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ntsecapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ntsecpkg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\oaidl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\objbase.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\objfwd.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\objidl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\objsafe.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ocidl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\odbcinst.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ole.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ole2.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ole2ver.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\oleacc.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\oleauto.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\olectl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\olectlid.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\oledlg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\oleidl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\pbt.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\powrprof.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\prsht.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\psapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\ras.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rasdlg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\raserror.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rassapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\reason.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\regstr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\richedit.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\richole.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpc.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcdce.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcdce2.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcdcep.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcndr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcnsi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcnsip.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\rpcnterr.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\schannel.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\secext.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\security.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\servprov.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\setupapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\shellapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\shldisp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\shlguid.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\shlobj.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\shlwapi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\snmp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sql.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sqlext.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sqltypes.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sqlucode.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sspi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\stacktrace.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\stat.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\subauth.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\threadaux.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\tlhelp32.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\tmschema.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\unknwn.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\uuid.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\vfw.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\w32api.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winbase.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winber.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wincon.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wincrypt.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\windef.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\windows.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winerror.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wingdi.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winhttp.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wininet.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winioctl.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winldap.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winnetwk.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winnls.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winnt.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winperf.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winreg.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winsock2.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winspool.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winsvc.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winuser.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\winver.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wtsapi32.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\wtypes.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\thread.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\time.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\vararg.d">
+         <Filter>src\core</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\etc\linux\memoryerror.d">
+         <Filter>src\etc\linux</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\bits.d">
+         <Filter>src\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\impl\conservative\gc.d">
+         <Filter>src\gc\impl\conservative</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\impl\manual\gc.d">
+         <Filter>src\gc\impl\manual</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\impl\proto\gc.d">
+         <Filter>src\gc\impl\proto</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\os.d">
+         <Filter>src\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\pooltable.d">
+         <Filter>src\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\gc\proxy.d">
+         <Filter>src\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\object.d">
+         <Filter>src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\aaA.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\aApply.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\aApplyR.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\adi.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\alloca.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\arrayassign.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\arraycat.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\backtrace\dwarf.d">
+         <Filter>src\rt\backtrace</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\backtrace\elf.d">
+         <Filter>src\rt\backtrace</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\backtrace\macho.d">
+         <Filter>src\rt\backtrace</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\cast_.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\cmath2.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\config.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\cover.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\critical_.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\deh.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\deh_win32.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\deh_win64_posix.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\dmain2.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\dwarfeh.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="..\..\druntime\src\rt\dylib_fixes.c">
+         <Filter>src\rt</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\ehalloc.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\invariant.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\lifetime.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\llmath.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\memory.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\memset.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\minfo.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\monitor_.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="..\..\druntime\src\rt\msvc.c">
+         <Filter>src\rt</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="..\..\druntime\src\rt\msvc_math.c">
+         <Filter>src\rt</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\profilegc.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\qsort.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_android.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_elf_shared.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_osx_x86.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_osx_x86_64.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_solaris.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_win32.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_win64.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\tlsgc.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\trace.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\tracegc.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Acdouble.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Acfloat.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Acreal.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Adouble.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Afloat.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Ag.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Aint.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Along.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Areal.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_Ashort.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_byte.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_C.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_cdouble.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_cent.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_cfloat.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_char.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_creal.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_dchar.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_delegate.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_double.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_float.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_idouble.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ifloat.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_int.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ireal.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_long.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_n.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ptr.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_real.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_short.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ubyte.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ucent.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_uint.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ulong.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_ushort.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_void.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\typeinfo\ti_wchar.d">
+         <Filter>src\rt\typeinfo</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\unwind.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\container\array.d">
+         <Filter>src\rt\util\container</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\container\common.d">
+         <Filter>src\rt\util\container</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\container\hashtab.d">
+         <Filter>src\rt\util\container</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\container\treap.d">
+         <Filter>src\rt\util\container</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\random.d">
+         <Filter>src\rt\util</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\typeinfo.d">
+         <Filter>src\rt\util</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\util\utility.d">
+         <Filter>src\rt\util</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\test_runner.d">
+         <Filter>src</Filter>
+      </DCompile>
+   </ItemGroup>
+</Project>

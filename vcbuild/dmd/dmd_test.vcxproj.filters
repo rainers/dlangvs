@@ -1,0 +1,45 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{4e17e802-af4e-4ac6-9872-f1d1d5945ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{0bd3f36c-2981-4374-a2a8-ad7a0c1f3c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\dshell_prebuilt">
+      <UniqueIdentifier>{4da44615-4f7b-42c1-8385-bfd41e8504e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\dmd\test\run.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\dmd\test\tools\paths.d" />
+    <None Include="..\..\dmd\test\tools\sanitize_json.d" />
+    <None Include="..\..\dmd\test\tools\unit_test_runner.d" />
+    <None Include="..\..\dmd\test\tools\*.d">
+      <Filter>tools</Filter>
+    </None>
+    <None Include="..\..\dmd\test\tools\*.d">
+      <Filter>tools</Filter>
+    </None>
+    <None Include="..\..\dmd\test\tools\*.d">
+      <Filter>tools</Filter>
+    </None>
+    <None Include="..\..\dmd\test\tools\*.d">
+      <Filter>tools</Filter>
+    </None>
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\dshell_prebuilt\dshell_prebuilt.d">
+      <Filter>tools\dshell_prebuilt</Filter>
+    </None>
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+    <None Include="..\..\dmd\test\tools\*.d" />
+  </ItemGroup>
+</Project>

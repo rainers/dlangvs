@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Unittest Debug|Win32">
+      <Configuration>Unittest Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unittest Debug|x64">
+      <Configuration>Unittest Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AA0295A-BC20-49F1-BCC2-3BC36BC665B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>druntime</RootNamespace>
+    <!-- guess the installed Windows SDK -->
+    <WindowsSdkInstallFolder_10 Condition="'$(WindowsSdkInstallFolder_10)' == ''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v10.0@InstallationFolder)</WindowsSdkInstallFolder_10>
+    <WindowsSdkInstallFolder_10 Condition="'$(WindowsSdkInstallFolder_10)' == ''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft SDKs\Windows\v10.0@InstallationFolder)</WindowsSdkInstallFolder_10>
+    <WindowsTargetPlatformVersion_10 Condition="'$(WindowsTargetPlatformVersion_10)' == ''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v10.0@ProductVersion)</WindowsTargetPlatformVersion_10>
+    <WindowsTargetPlatformVersion_10 Condition="'$(WindowsTargetPlatformVersion_10)' == ''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft SDKs\Windows\v10.0@ProductVersion)</WindowsTargetPlatformVersion_10>
+    <!-- Sometimes the version in the registry has to .0 suffix, and sometimes it doesn't. Check and add it -->
+    <WindowsTargetPlatformVersion_10 Condition="'$(WindowsTargetPlatformVersion_10)' != '' and !$(WindowsTargetPlatformVersion_10.EndsWith('.0'))">$(WindowsTargetPlatformVersion_10).0</WindowsTargetPlatformVersion_10>
+    <WindowsTargetPlatformVersion Condition="'$(WindowsTargetPlatformVersion_10)' != ''">$(WindowsTargetPlatformVersion_10)</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <DCompiler>DMD</DCompiler>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup>
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>generated\Windows\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(IntDir)</OutDir>
+    <LinkIncremental Condition="'$(Configuration)'=='Release'">false</LinkIncremental>
+    <DMDModel Condition="'$(Platform)'=='x64'">64</DMDModel>
+    <DMDModel Condition="'$(Platform)'=='Win32'">32mscoff</DMDModel>
+    <DMDConfig Condition="'$(Configuration)'=='Unittest Debug'">Debug</DMDConfig>
+    <DMDConfig Condition="'$(Configuration)'!='Unittest Debug'">$(Configuration)</DMDConfig>
+    <MakeTarget Condition="'$(Configuration)'=='Unittest Debug'">unittest</MakeTarget>
+    <MakeTarget Condition="'$(Configuration)'!='Unittest Debug'"></MakeTarget>
+    <DRuntimeLib>..\..\druntime\lib\druntime$(DMDModel).lib</DRuntimeLib>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary Condition="'$(Configuration)'=='Release'">MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)'!='Release'">MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <DCompile>
+      <CompilationModel>Package</CompilationModel>
+      <ImportPaths>../../druntime/src;../../phobos</ImportPaths>
+      <CRuntimeLibrary Condition="'$(Configuration)'=='Release'">MultiThreaded</CRuntimeLibrary>
+      <CRuntimeLibrary Condition="'$(Configuration)'!='Release'">MultiThreadedDebug</CRuntimeLibrary>
+      <AdditionalOptions>-conf= %(AdditionalOptions)</AdditionalOptions>
+    </DCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Unittest Debug|Win32'">phobos32mscoff.lib</IgnoreSpecificDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Unittest Debug|x64'">phobos64.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <DCompile Include="..\..\phobos\std\**\*.d">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </DCompile>
+    <DCompile Include="..\..\phobos\etc\**\*.d">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </DCompile>
+    <DCompile Include="..\..\phobos\unittest.d">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </DCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\adler32.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\compress.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\crc32.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\deflate.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\infback.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\inffast.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\inflate.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\inftrees.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\trees.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\uncompr.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\phobos\etc\c\zlib\zutil.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <CustomBuild Include="../../phobos/win64.mak">
+      <Command>cd %(RelativeDir)
+set MAKE=$(DMDInstallDir)\windows\bin\make.exe
+set ARGS=VCDIR=. SDKDIR=.
+set ARGS=%ARGS% "MAKE=%MAKE%"
+set ARGS=%ARGS% "CC=$(VCToolsInstallDir)\bin\HostX86\x64\cl.exe"
+set ARGS=%ARGS% "AR=$(VCToolsInstallDir)\bin\HostX86\x64\lib.exe"
+set ARGS=%ARGS% "DMD=..\dmd\generated\Windows\$(DMDConfig)\$(Platform)\dmd.exe"
+"%MAKE%" -f win64.mak MODEL=$(DMDModel) %ARGS% $(MakeTarget)</Command>
+      <Message>Building phobos...</Message>
+      <Outputs Condition="'$(Configuration)'=='Unittest Debug'">%(InputPath)\unittest.exe</Outputs>
+      <Outputs Condition="'$(Configuration)'!='Unittest Debug'">%(InputPath)\phobos$(DMDModel).lib</Outputs>
+      <AdditionalInputs>@(DCompile);@(ClCompile);$(DRuntimeLib)</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\dmd\src\vcbuild\dmd.vcxproj">
+      <Project>{c4da4faf-a928-4230-8353-e80c76f223e0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\druntime\druntime.vcxproj">
+      <Project>{987bd84d-d5d9-4f39-b100-54fb4adaef89}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
