@@ -1,15 +1,15 @@
 [submodule "tools"]
 	path = tools
-	url = C:/s/d/dlang/tools
+	url = https://github.com/dlang/tools.git
 [submodule "dmd"]
 	path = dmd
-	url = C:/s/d/dlang/dmd
+	url = https://github.com/dlang/dmd.git
 [submodule "druntime"]
 	path = druntime
-	url = C:/s/d/dlang/druntime
+	url = https://github.com/dlang/druntime.git
 [submodule "phobos"]
 	path = phobos
-	url = C:/s/d/dlang/phobos
+	url = https://github.com/dlang/phobos.git
 [submodule "installer"]
 	path = installer
-	url = https://github.com/rainers/installer.git
+	url = https://github.com/dlang/installer.git
