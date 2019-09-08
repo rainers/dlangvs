@@ -1,117 +1,117 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
    <ItemGroup>
       <Filter Include="std">
-         <UniqueIdentifier>{0ddc0cd6-8426-4c47-bec1-f44abdc5d64d}</UniqueIdentifier>
+         <UniqueIdentifier>{833c7490-7003-47d5-8ef6-048763e0a966}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\algorithm">
-         <UniqueIdentifier>{62eb7f86-7485-412a-af12-752feaa8690e}</UniqueIdentifier>
+         <UniqueIdentifier>{b925cd08-ad74-44cb-931a-39afb382f066}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\container">
-         <UniqueIdentifier>{81a8478a-e6d2-4ff9-964b-09622ccd5910}</UniqueIdentifier>
+         <UniqueIdentifier>{254f2068-6eb2-4d70-aef9-82a4952ea1c9}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\datetime">
-         <UniqueIdentifier>{80d6d422-e70b-44e5-ae5a-64e133d33280}</UniqueIdentifier>
+         <UniqueIdentifier>{6c6eac8f-51e0-46f8-8116-7df31afeb15b}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\digest">
-         <UniqueIdentifier>{f0d0ccc0-d7be-40e6-bfdb-8e114131ea12}</UniqueIdentifier>
+         <UniqueIdentifier>{74234cf9-4d1b-473b-9bf7-ace0c898b5f8}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\experimental">
-         <UniqueIdentifier>{124b981c-dc47-4c8a-b1d4-1925152845ca}</UniqueIdentifier>
+         <UniqueIdentifier>{21035e5a-2cd5-474c-9589-b25b096bb56e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\experimental\allocator">
-         <UniqueIdentifier>{357d561a-764f-4b7c-959c-999a8ff1b939}</UniqueIdentifier>
+         <UniqueIdentifier>{ce4f8c0f-ba49-4f96-b576-43f12955b2f2}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\experimental\allocator\building_blocks">
-         <UniqueIdentifier>{2007fd82-1bdc-4a4c-b814-0500e7569413}</UniqueIdentifier>
+         <UniqueIdentifier>{cfd6c554-4cef-4a17-87b6-05469a3f2a04}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\experimental\logger">
-         <UniqueIdentifier>{9cfe341b-33a8-48a6-a189-fd33c60388a1}</UniqueIdentifier>
+         <UniqueIdentifier>{97760740-8c34-41c3-a635-f02f353593b6}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\internal">
-         <UniqueIdentifier>{53502cc8-80bd-455e-bbfc-2f27318a135b}</UniqueIdentifier>
+         <UniqueIdentifier>{475f17fe-27ff-40d8-95dd-4dc549b34578}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\internal\digest">
-         <UniqueIdentifier>{599c1007-4a77-405a-a6c2-5d85736f4f25}</UniqueIdentifier>
+         <UniqueIdentifier>{d1bc18a3-c7ca-446f-8303-4a211f8b3c4a}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\internal\math">
-         <UniqueIdentifier>{293b7f53-1f8b-48f4-8c69-f6faab977220}</UniqueIdentifier>
+         <UniqueIdentifier>{1f5e625a-603e-4e9c-861e-5ed0bcd2e239}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\internal\test">
-         <UniqueIdentifier>{8ec9b41d-a53e-44b7-9eb9-9a9bb0b9609b}</UniqueIdentifier>
+         <UniqueIdentifier>{c9afbdd9-919b-4568-ad16-46039f6b4528}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\internal\windows">
-         <UniqueIdentifier>{95f42889-fc12-4479-a6bc-e0906568fea5}</UniqueIdentifier>
+         <UniqueIdentifier>{d6b3fe41-4a6a-405a-b835-2b2208e21c98}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\net">
-         <UniqueIdentifier>{4e4e7453-92e3-45ce-9412-980c08b7a669}</UniqueIdentifier>
+         <UniqueIdentifier>{c38e9902-1b8f-43fb-97eb-b51dd466a942}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\range">
-         <UniqueIdentifier>{39da12f7-86d3-4fa5-b0e5-8bc7b91711e5}</UniqueIdentifier>
+         <UniqueIdentifier>{76f68d2e-11c0-4862-a7f8-4938245f9fb1}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\regex">
-         <UniqueIdentifier>{e41ad6db-c5f2-4f59-ab74-141f1ac17221}</UniqueIdentifier>
+         <UniqueIdentifier>{9c269e44-5bf7-4b74-b23f-3dcc12384481}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\regex\internal">
-         <UniqueIdentifier>{0bb175d8-1bd2-4d84-9b7b-ce49262a996c}</UniqueIdentifier>
+         <UniqueIdentifier>{a74efb0c-1eb9-40b9-a7d1-3650da7a6f87}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="std\windows">
-         <UniqueIdentifier>{f664d249-902f-43ea-b86d-e211fe61aa24}</UniqueIdentifier>
+         <UniqueIdentifier>{f38a846e-ad1f-4135-ac47-71302220927e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="etc">
-         <UniqueIdentifier>{bcd2aa8a-5362-494a-abba-aeff0f3afa25}</UniqueIdentifier>
+         <UniqueIdentifier>{0a7e3862-a3e7-4b12-ab46-444b9b137899}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="etc\c">
-         <UniqueIdentifier>{38bd3822-96ea-4a75-adf7-4389ab6dca4c}</UniqueIdentifier>
+         <UniqueIdentifier>{b68d3206-4a80-43e2-a85b-8f3d4862b5b3}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="etc\c\odbc">
-         <UniqueIdentifier>{72c0cc3a-c946-400d-b022-02236a923d43}</UniqueIdentifier>
+         <UniqueIdentifier>{d5aa1308-a031-42af-a437-59bcb42c2d5d}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="etc\c\zlib">
-         <UniqueIdentifier>{5884df15-a6c1-4610-833c-81e9f4172ca8}</UniqueIdentifier>
+         <UniqueIdentifier>{8ef963cf-c28e-418f-8033-8ba0b5da66c2}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
@@ -960,9 +960,19 @@
       </ClInclude>
    </ItemGroup>
    <ItemGroup>
+      <None Include="..\..\phobos\etc\c\zlib\linux.mak">
+         <Filter>etc\c\zlib</Filter>
+      </None>
+   </ItemGroup>
+   <ItemGroup>
       <ClCompile Include="..\..\phobos\etc\c\zlib\minigzip.c">
          <Filter>etc\c\zlib</Filter>
       </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="..\..\phobos\etc\c\zlib\osx.mak">
+         <Filter>etc\c\zlib</Filter>
+      </None>
    </ItemGroup>
    <ItemGroup>
       <ClCompile Include="..\..\phobos\etc\c\zlib\trees.c">
@@ -978,6 +988,16 @@
       <ClCompile Include="..\..\phobos\etc\c\zlib\uncompr.c">
          <Filter>etc\c\zlib</Filter>
       </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="..\..\phobos\etc\c\zlib\win32.mak">
+         <Filter>etc\c\zlib</Filter>
+      </None>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="..\..\phobos\etc\c\zlib\win64.mak">
+         <Filter>etc\c\zlib</Filter>
+      </None>
    </ItemGroup>
    <ItemGroup>
       <ClInclude Include="..\..\phobos\etc\c\zlib\zconf.h">

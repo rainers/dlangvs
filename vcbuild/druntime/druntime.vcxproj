@@ -113,6 +113,16 @@
     <ClCompile Include="../../druntime/src/rt/msvc.c;../../druntime/src/rt/msvc_math.c">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+
+    <DCompile Include="../../druntime/test/**/*.d">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </DCompile>
+    <None Include="../../druntime/test/**/*.mak;../../druntime/test/**/Makefile">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </None>
+    <ClCompile Include="../../druntime/test/**/*.c;../../druntime/test/**/*.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <CustomBuild Include="../../druntime/win64.mak">
       <Outputs Condition="'$(Configuration)'=='Unittest Debug'">..\..\druntime\unittest.exe</Outputs>
       <Outputs Condition="'$(Configuration)'!='Unittest Debug'">..\..\druntime\lib\druntime$(DMDModel).lib</Outputs>

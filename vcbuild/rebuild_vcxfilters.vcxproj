@@ -63,7 +63,7 @@
       <Outputs>druntime\druntime.vcxproj.filters</Outputs>
       <Command>
 cd druntime
-$(DmdBinDir)\rdmd ..\genvcxfilters druntime ..\..\druntime\src &gt;druntime.vcxproj.filters
+$(DmdBinDir)\rdmd ..\genvcxfilters druntime ..\..\druntime\src ..\..\druntime\test &gt;druntime.vcxproj.filters
 cd ..\phobos
 $(DmdBinDir)\rdmd ..\genvcxfilters phobos ..\..\phobos\std ..\..\phobos\etc &gt;phobos.vcxproj.filters
 echo Close and reload solution now.

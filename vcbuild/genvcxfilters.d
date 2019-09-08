@@ -47,7 +47,8 @@ void main(string[] args)
     foreach (string name; dirEntries(srcpath, SpanMode.breadth))
     {
         string ext = extension(name).toLower;
-        if (ext == ".d" || ext == ".c" || ext == ".h")
+        if (ext == ".d" || ext == ".c" || ext == ".cpp" || ext == ".h" || ext == ".mak" || 
+            baseName(name) == "Makefile")
         {
             void addFilter(string fname)
             {
@@ -77,7 +78,9 @@ void main(string[] args)
                 
             addFilter(filtername);
             auto elem = new Element("ItemGroup");
-            auto item = new Element(ext == ".c" ? "ClCompile" : ext == ".h" ? "ClInclude" : "DCompile");
+            auto item = new Element(ext == ".c" || ext == ".cpp" ? "ClCompile" : 
+                                    ext == ".h" ? "ClInclude" :
+                                    ext == ".d" ? "DCompile" : "None");
             item.tag.attr["Include"] = relname;
             auto filter = new Element("Filter");
             filter.items ~= new Text(filtername);
