@@ -9,6 +9,14 @@
       <Configuration>Unittest Debug</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Unittest Release|Win32">
+      <Configuration>Unittest Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unittest Release|x64">
+      <Configuration>Unittest Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
@@ -51,6 +59,14 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup>
+    <IsDebug>false</IsDebug>
+    <IsDebug Condition="'$(Configuration)'=='Unittest Debug'">true</IsDebug>
+    <IsDebug Condition="'$(Configuration)'=='Debug'">true</IsDebug>
+    <IsUnittest>false</IsUnittest>
+    <IsUnittest Condition="'$(Configuration)'=='Unittest Debug'">true</IsUnittest>
+    <IsUnittest Condition="'$(Configuration)'=='Unittest Release'">true</IsUnittest>
+  </PropertyGroup>
+  <PropertyGroup>
     <LinkIncremental>true</LinkIncremental>
     <IntDir>generated\Windows\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(IntDir)</OutDir>
@@ -59,11 +75,12 @@
     <CCModel Condition="'$(Platform)'=='Win32'">x86</CCModel>
     <DMDModel Condition="'$(Platform)'=='x64'">64</DMDModel>
     <DMDModel Condition="'$(Platform)'=='Win32'">32mscoff</DMDModel>
-    <DMDConfig Condition="'$(Configuration)'=='Unittest Debug'">Debug</DMDConfig>
-    <DMDConfig Condition="'$(Configuration)'!='Unittest Debug'">$(Configuration)</DMDConfig>
+    <DMDConfig Condition="$(IsDebug)">Debug</DMDConfig>
+    <DMDConfig Condition="!$(IsDebug)">Release</DMDConfig>
     <TargetName>druntime$(DMDModel)</TargetName>
-    <MakeTarget Condition="'$(Configuration)'=='Unittest Debug'">unittest test_all</MakeTarget>
-    <MakeTarget Condition="'$(Configuration)'!='Unittest Debug'"></MakeTarget>
+    <MakeTarget>
+    </MakeTarget>
+    <MakeTarget Condition="$(IsUnittest)">unittest test_all</MakeTarget>
     <DMDGenerated>..\..\dmd\generated\Windows\$(DMDConfig)\$(Platform)\dmd.exe</DMDGenerated>
   </PropertyGroup>
   <ItemDefinitionGroup>
@@ -133,6 +150,7 @@ set MAKE=$(DMDInstallDir)\windows\bin\make.exe
 set DMD=..\dmd\generated\Windows\$(DMDConfig)\$(Platform)\dmd.exe
 set ARGS=VCDIR=. SDKDIR=.
 set ARGS=%ARGS% "MAKE=%MAKE%"
+set ARGS=%ARGS% "HOST_DMD=$(DMDInstallDir)\windows\bin\dmd.exe"
 set ARGS=%ARGS% "CC=$(VCToolsInstallDir)\bin\HostX86\$(CCModel)\cl.exe"
 set ARGS=%ARGS% "AR=$(VCToolsInstallDir)\bin\HostX86\$(CCModel)lib.exe"
 set ARGS=%ARGS% "DMD=%DMD%"

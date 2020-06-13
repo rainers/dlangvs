@@ -61,8 +61,11 @@
     <DMDConfig Condition="'$(Configuration)'=='Unittest Debug'">Debug</DMDConfig>
     <DMDConfig Condition="'$(Configuration)'!='Unittest Debug'">$(Configuration)</DMDConfig>
     <MakeTarget Condition="'$(Configuration)'=='Unittest Debug'">unittest</MakeTarget>
-    <MakeTarget Condition="'$(Configuration)'!='Unittest Debug'"></MakeTarget>
+    <MakeTarget Condition="'$(Configuration)'!='Unittest Debug'">
+    </MakeTarget>
     <DRuntimeLib>..\..\druntime\lib\druntime$(DMDModel).lib</DRuntimeLib>
+    <ClHostDir Condition="'$(Platform)'=='x64'">x64</ClHostDir>
+    <ClHostDir Condition="'$(Platform)'=='Win32'">x86</ClHostDir>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -146,13 +149,13 @@
 set MAKE=$(DMDInstallDir)\windows\bin\make.exe
 set ARGS=VCDIR=. SDKDIR=.
 set ARGS=%ARGS% "MAKE=%MAKE%"
-set ARGS=%ARGS% "CC=$(VCToolsInstallDir)\bin\HostX86\x64\cl.exe"
-set ARGS=%ARGS% "AR=$(VCToolsInstallDir)\bin\HostX86\x64\lib.exe"
+set ARGS=%ARGS% "CC=$(VCToolsInstallDir)\bin\HostX86\$(ClHostDir)\cl.exe"
+set ARGS=%ARGS% "AR=$(VCToolsInstallDir)\bin\HostX86\$(ClHostDir)\lib.exe"
 set ARGS=%ARGS% "DMD=..\dmd\generated\Windows\$(DMDConfig)\$(Platform)\dmd.exe"
 "%MAKE%" -f win64.mak MODEL=$(DMDModel) %ARGS% $(MakeTarget)</Command>
       <Message>Building phobos...</Message>
-      <Outputs Condition="'$(Configuration)'=='Unittest Debug'">%(InputPath)\unittest.exe</Outputs>
-      <Outputs Condition="'$(Configuration)'!='Unittest Debug'">%(InputPath)\phobos$(DMDModel).lib</Outputs>
+      <Outputs Condition="'$(Configuration)'=='Unittest Debug'">%(RelativeDir)\unittest.exe</Outputs>
+      <Outputs Condition="'$(Configuration)'!='Unittest Debug'">%(RelativeDir)\phobos$(DMDModel).lib</Outputs>
       <AdditionalInputs>@(DCompile);@(ClCompile);$(DRuntimeLib)</AdditionalInputs>
     </CustomBuild>
   </ItemGroup>

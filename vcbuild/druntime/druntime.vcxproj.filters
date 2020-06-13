@@ -1,422 +1,447 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
    <ItemGroup>
       <Filter Include="src">
-         <UniqueIdentifier>{87f11e09-c1db-4ca2-812a-11f781780b81}</UniqueIdentifier>
+         <UniqueIdentifier>{b6097456-acad-4482-919f-1c9a3fed4019}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core">
-         <UniqueIdentifier>{188ad6d1-ce96-4aa7-9513-3197514ce649}</UniqueIdentifier>
+         <UniqueIdentifier>{5a8594ec-5bcc-4949-ac6d-e405ff79b2eb}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\gc">
-         <UniqueIdentifier>{1c796927-30be-4310-812a-8aaa281442df}</UniqueIdentifier>
+         <UniqueIdentifier>{30ffb44b-55e4-4b64-ac06-a86254b63f4c}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\internal">
-         <UniqueIdentifier>{bc0544d3-d7f3-4936-8b48-eb0f7829ad09}</UniqueIdentifier>
+         <UniqueIdentifier>{023bc359-da79-494e-bdbe-3b0e68a03411}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\internal\array">
-         <UniqueIdentifier>{398efb25-e3fe-4c03-b5a3-fdf45f556d00}</UniqueIdentifier>
+         <UniqueIdentifier>{6bfc0ea3-8e41-447d-bce1-910de7897d22}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\internal\elf">
+         <UniqueIdentifier>{d514ae7a-8425-44d2-b623-7700adaac5a2}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\internal\util">
-         <UniqueIdentifier>{84cfab33-9739-4daf-a1d0-17268719225d}</UniqueIdentifier>
+         <UniqueIdentifier>{fd5768c8-9d3e-4206-b8d5-dc297b1f9ffe}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\internal\vararg">
+         <UniqueIdentifier>{36ae660c-de31-44ef-a8d1-0ea9263f559b}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\stdc">
-         <UniqueIdentifier>{b0c86724-a320-40d2-986b-1ee51585ff25}</UniqueIdentifier>
+         <UniqueIdentifier>{ae42a71a-1b07-4254-a76c-f9f8e63492ee}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\stdcpp">
-         <UniqueIdentifier>{62bbb07d-f8f9-414b-a193-cfe0fd93f656}</UniqueIdentifier>
+         <UniqueIdentifier>{6cc8de17-9d4a-4102-b8a6-2aa8c47e59e1}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sync">
-         <UniqueIdentifier>{69fda9bc-190e-4087-a88c-72b6a317edfe}</UniqueIdentifier>
+         <UniqueIdentifier>{b09517d4-b441-47cd-9de6-f86945cfc8f0}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys">
-         <UniqueIdentifier>{e7ab30ca-05dd-4b12-8545-599c24aea11b}</UniqueIdentifier>
+         <UniqueIdentifier>{9c098f0a-5cb8-49e3-898d-b85b746ddac2}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\bionic">
-         <UniqueIdentifier>{78ccbf33-1c35-4f33-afa1-8cd986a95e83}</UniqueIdentifier>
+         <UniqueIdentifier>{9879d40b-c66e-45ba-8450-8912d4b1fb82}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\darwin">
-         <UniqueIdentifier>{c13e9830-08cd-4039-87de-7109327d0953}</UniqueIdentifier>
+         <UniqueIdentifier>{109bba6a-dccc-4d3f-a1fa-be4fbd9820d6}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\darwin\mach">
-         <UniqueIdentifier>{c8bc3e61-3299-44cd-b470-4d8bc7cc3345}</UniqueIdentifier>
+         <UniqueIdentifier>{ea513506-1586-4136-8437-65bd6d0b99c0}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\darwin\netinet">
-         <UniqueIdentifier>{61fe75b9-ac62-4d7c-bc8f-1f5b9ede3b2a}</UniqueIdentifier>
+         <UniqueIdentifier>{48a99c7b-6045-4237-9c34-8c183e8fa007}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\darwin\sys">
-         <UniqueIdentifier>{118f1438-12c1-4179-ac37-1163d73e90a0}</UniqueIdentifier>
+         <UniqueIdentifier>{73bf6d46-f988-4ce6-9f02-2f7b73510f2f}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\dragonflybsd">
-         <UniqueIdentifier>{c2a8bc6d-bfdc-4b22-8f6f-367dc8ff07db}</UniqueIdentifier>
+         <UniqueIdentifier>{9620ac1a-e366-44b7-aea0-2ac141549f94}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\dragonflybsd\netinet">
-         <UniqueIdentifier>{abc6488f-d5c4-4676-8ef3-6eb91e4a4dcd}</UniqueIdentifier>
+         <UniqueIdentifier>{2a8794ca-0b62-453e-84c5-2c46f1515d74}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\dragonflybsd\sys">
-         <UniqueIdentifier>{354227f6-0984-4f39-8b6e-738a64099e8d}</UniqueIdentifier>
+         <UniqueIdentifier>{122d39df-91c1-44a6-bc00-6e30c41c1d91}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\freebsd">
-         <UniqueIdentifier>{b37123a2-a123-443d-b49e-a10247cf40c7}</UniqueIdentifier>
+         <UniqueIdentifier>{7cd59573-1cf7-481e-bd86-82770f2780bb}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\freebsd\netinet">
-         <UniqueIdentifier>{bdaff01d-81d1-42d0-b998-2d88f955555d}</UniqueIdentifier>
+         <UniqueIdentifier>{76a8b78b-2a11-4797-a29a-f33673b228cc}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\freebsd\sys">
-         <UniqueIdentifier>{49ca7b4a-e0d9-4779-8e34-a5c998fc165c}</UniqueIdentifier>
+         <UniqueIdentifier>{e65c3ea0-bcfd-49a8-8807-cf882ff97b62}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\linux">
-         <UniqueIdentifier>{33afb5ff-cc61-4950-ab05-a29b8bab495e}</UniqueIdentifier>
+         <UniqueIdentifier>{1aa0f1d3-ed8f-4faa-98eb-0a093bc9510d}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\linux\netinet">
-         <UniqueIdentifier>{0e670e02-0e0f-4bf0-b1d0-980e0c2ce893}</UniqueIdentifier>
+         <UniqueIdentifier>{84eeff82-fb61-4ac9-8a83-ea37f7a27e91}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\linux\sys">
-         <UniqueIdentifier>{33adb9ca-d4ce-4641-b44a-582d4e327930}</UniqueIdentifier>
+         <UniqueIdentifier>{d340d484-99fa-4e70-9a6f-d1d6e546f6d3}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\netbsd">
-         <UniqueIdentifier>{63ac3f83-6d0e-4ede-9db0-ec2d2e0ed0eb}</UniqueIdentifier>
+         <UniqueIdentifier>{0735a24a-7123-42ad-a9f7-69be998a3f94}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\netbsd\sys">
-         <UniqueIdentifier>{18d49433-0038-400b-aab8-17713ed49e92}</UniqueIdentifier>
+         <UniqueIdentifier>{628bc220-59ba-4fd3-aadc-ab75e7473108}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\openbsd">
-         <UniqueIdentifier>{05c615a0-a0e2-4faf-bb51-ce532b193e07}</UniqueIdentifier>
+         <UniqueIdentifier>{14a2fdf9-a32d-4c99-965d-e0fd186970fd}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\openbsd\sys">
-         <UniqueIdentifier>{0545db89-fa19-4324-a5d9-962f1c9f681e}</UniqueIdentifier>
+         <UniqueIdentifier>{901d14d0-3c6e-4d7b-8bae-5630a1019a87}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\posix">
-         <UniqueIdentifier>{d723e9ce-ec0c-4a89-82a1-484b2203d1fb}</UniqueIdentifier>
+         <UniqueIdentifier>{dc2dcbf2-c07f-444a-aa96-98b00da3673e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\posix\arpa">
-         <UniqueIdentifier>{deb8cc73-5e74-47d4-89ae-22bf0a3dbed1}</UniqueIdentifier>
+         <UniqueIdentifier>{cb042b92-ce19-4f01-bc93-29c789962acb}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\posix\net">
-         <UniqueIdentifier>{b18f63e0-2ed9-4444-836b-d0279fe3cc5a}</UniqueIdentifier>
+         <UniqueIdentifier>{f031d420-13ec-4d33-9883-73dfae6c605c}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\posix\netinet">
-         <UniqueIdentifier>{0461e087-c781-40a6-8238-3ddff7229789}</UniqueIdentifier>
+         <UniqueIdentifier>{b99a2807-0701-4a3d-921c-a63a701d43a0}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\posix\stdc">
+         <UniqueIdentifier>{a720e626-53af-43b7-a9f4-80c4b21a83bc}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\posix\sys">
-         <UniqueIdentifier>{c71f3f0f-91b6-41fc-9e38-1188ea75b7e7}</UniqueIdentifier>
+         <UniqueIdentifier>{aabbed0d-a8e4-4d97-a706-31783774eeba}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\solaris">
-         <UniqueIdentifier>{77ce8202-6f10-4a4a-82cc-0c692c2be53b}</UniqueIdentifier>
+         <UniqueIdentifier>{9df403bd-5089-4047-94e8-98bf3004b05c}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\solaris\sys">
-         <UniqueIdentifier>{a6e728be-7c0b-447a-9542-d6437b0b6b58}</UniqueIdentifier>
+         <UniqueIdentifier>{a922d5d0-0456-497f-a548-f743d182c6c5}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\core\sys\windows">
-         <UniqueIdentifier>{6d894a77-06b4-4123-9d3b-dbedc001544a}</UniqueIdentifier>
+         <UniqueIdentifier>{d06b7302-d6f2-46f4-a874-4bb1d9d98809}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\sys\windows\stdc">
+         <UniqueIdentifier>{0e6efee4-3f17-49fe-abba-669cd9102b8f}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+   <ItemGroup>
+      <Filter Include="src\core\thread">
+         <UniqueIdentifier>{2c27601b-4705-4a3e-aba2-961aaf1628b4}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\etc">
-         <UniqueIdentifier>{f6ae3de1-f725-42dd-9058-8bd3a191d709}</UniqueIdentifier>
+         <UniqueIdentifier>{b7c8b7fa-980d-4f21-a3f4-2c7fb7b5e664}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\etc\linux">
-         <UniqueIdentifier>{776e495b-3f29-4507-8733-8a084e27eb92}</UniqueIdentifier>
+         <UniqueIdentifier>{e9465c53-de37-416f-8f6e-147eb67efe99}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\gc">
-         <UniqueIdentifier>{205402a0-8ea8-4373-bbde-7a41b31a9510}</UniqueIdentifier>
+         <UniqueIdentifier>{916968f2-6ffc-4acd-a52e-29f71121beda}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\gc\impl">
-         <UniqueIdentifier>{2e9cacaf-9783-40b4-9990-94209c13d10b}</UniqueIdentifier>
+         <UniqueIdentifier>{d32d4bb1-7c07-4298-99f8-9421ae865714}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\gc\impl\conservative">
-         <UniqueIdentifier>{01d74adb-1b21-4278-ad2d-17f289950083}</UniqueIdentifier>
+         <UniqueIdentifier>{1bdd880e-eb01-4f1d-a783-27cec9f4238c}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\gc\impl\manual">
-         <UniqueIdentifier>{4879b91e-dc22-4f18-b3b7-79b1bebc82fc}</UniqueIdentifier>
+         <UniqueIdentifier>{cc4dab3b-9717-4c2d-b144-9df270537147}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\gc\impl\proto">
-         <UniqueIdentifier>{20f068cb-831f-4e22-beb2-97bc81b1bf05}</UniqueIdentifier>
+         <UniqueIdentifier>{0edd5161-c446-42c7-9a1b-fb8df65ff7c8}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\rt">
-         <UniqueIdentifier>{99d97087-177e-4624-bebc-3c8cb0b73532}</UniqueIdentifier>
+         <UniqueIdentifier>{7c247170-9534-4875-81a6-826aff550cc4}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\rt\backtrace">
-         <UniqueIdentifier>{27cf2c08-dd25-4b34-83d9-2ba6931c9f97}</UniqueIdentifier>
+         <UniqueIdentifier>{b603aaaa-2f57-4568-8aba-3991cb416473}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\rt\typeinfo">
-         <UniqueIdentifier>{3d3ac71c-da43-4de5-ac48-37dca4ed36a8}</UniqueIdentifier>
+         <UniqueIdentifier>{f94c91fc-db1b-4882-8353-7ea81a1e0a4b}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\rt\util">
-         <UniqueIdentifier>{165707b0-774b-4dd1-bf16-73843af030fa}</UniqueIdentifier>
+         <UniqueIdentifier>{d3e22f38-125e-4e8e-bcbc-b89ca5229d75}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="src\rt\util\container">
-         <UniqueIdentifier>{3a995154-50ae-425a-b9d7-ae0eef536987}</UniqueIdentifier>
+         <UniqueIdentifier>{15490618-57e1-47ab-84db-57fb69b31891}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test">
-         <UniqueIdentifier>{9e872f89-e2fa-4b7a-b2ef-accb0408a1ad}</UniqueIdentifier>
+         <UniqueIdentifier>{b5589fee-3bbe-4489-ade8-f36f3c7d7bfc}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\aa">
-         <UniqueIdentifier>{0b9cf7b9-a2e0-4ac8-81f4-b96a7491317a}</UniqueIdentifier>
+         <UniqueIdentifier>{e0878920-1015-4f3b-8cd8-dca07918e8e7}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\aa\src">
-         <UniqueIdentifier>{75314983-974b-475c-aeff-dd3717857f58}</UniqueIdentifier>
+         <UniqueIdentifier>{f9bf670f-a116-44dd-9063-4e82cf2228e7}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\allocations">
-         <UniqueIdentifier>{85cf6c60-f9c6-4a18-a7a3-9a46ec49e988}</UniqueIdentifier>
+         <UniqueIdentifier>{8388dce6-3cc7-4a9d-9259-cc91abf6ef27}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\allocations\src">
-         <UniqueIdentifier>{3d9c6a80-6cec-4bcb-a65d-c5e6c2efb66b}</UniqueIdentifier>
+         <UniqueIdentifier>{15502a07-83da-453b-872d-bb63304f5629}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\betterc">
-         <UniqueIdentifier>{70a064c1-4997-486c-b75e-c8cc29da138d}</UniqueIdentifier>
+         <UniqueIdentifier>{cdf93158-8550-4abd-96ef-6806640dd622}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\betterc\src">
-         <UniqueIdentifier>{f3d264b6-9a1b-4c81-919f-351da8a9c1d9}</UniqueIdentifier>
+         <UniqueIdentifier>{8c6600ac-e9a9-4d8e-af65-97850291b7cb}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\config">
-         <UniqueIdentifier>{cfbf8f15-cfad-42d3-9d90-2e53a0ade86a}</UniqueIdentifier>
+         <UniqueIdentifier>{df3ba35d-f01a-4c73-940f-c0997c813e31}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\config\src">
-         <UniqueIdentifier>{5fa7acbc-d739-4e77-a3c3-c30005824045}</UniqueIdentifier>
+         <UniqueIdentifier>{581d10ff-3e3c-4d96-9414-9947138f51a6}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\coverage">
-         <UniqueIdentifier>{2d8e4ab3-094c-4149-81a1-7a9bcf62459f}</UniqueIdentifier>
+         <UniqueIdentifier>{72db353f-c8ea-44b7-a6eb-91939edbd0a7}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\coverage\src">
-         <UniqueIdentifier>{54e8d633-b420-433b-889d-3060161d0f35}</UniqueIdentifier>
+         <UniqueIdentifier>{b4fbcdb3-9e13-4ae5-9695-093642e8edad}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\cpuid">
-         <UniqueIdentifier>{c75b586f-6f5e-4bd8-a1bc-1e56dde5678a}</UniqueIdentifier>
+         <UniqueIdentifier>{49158504-c9c9-41af-b645-9997af5fd0e1}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\cpuid\src">
-         <UniqueIdentifier>{f74157aa-7886-4d21-a99b-37c91dbf26dc}</UniqueIdentifier>
+         <UniqueIdentifier>{9e028b10-893e-4d62-98eb-48db4fb1e28b}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\cycles">
-         <UniqueIdentifier>{8dc5c954-07e5-4414-a80a-167353966309}</UniqueIdentifier>
+         <UniqueIdentifier>{5d9ef14e-f4fe-4405-b0b8-d113ef9e5a82}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\cycles\src">
-         <UniqueIdentifier>{bdf33bab-06a4-408e-898a-ecf99b5e6a78}</UniqueIdentifier>
+         <UniqueIdentifier>{aefd387b-73be-4c76-a35b-badf6133df10}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\exceptions">
-         <UniqueIdentifier>{94aa872c-a28d-4c90-aab5-8bad97ec19af}</UniqueIdentifier>
+         <UniqueIdentifier>{daabe781-cac5-4670-8f91-983a94e73600}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\exceptions\src">
-         <UniqueIdentifier>{60cac00f-1f27-44f7-9b4b-e983b014f69e}</UniqueIdentifier>
+         <UniqueIdentifier>{887eba5a-2e60-4b35-befb-b680be3c035e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\gc">
-         <UniqueIdentifier>{be989581-40b4-4ef4-8807-c6e076331c98}</UniqueIdentifier>
+         <UniqueIdentifier>{e64974f0-85f2-4f56-b730-e1ce262b788a}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\hash">
-         <UniqueIdentifier>{f4c18517-24d9-4eb4-9780-0dd8f371cc9a}</UniqueIdentifier>
+         <UniqueIdentifier>{c4fd660c-4374-411f-9438-3a7a4ffca935}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\hash\src">
-         <UniqueIdentifier>{054a8e50-9759-4a4f-a61c-6a851bd55afb}</UniqueIdentifier>
+         <UniqueIdentifier>{709b939b-bd37-4dab-9348-088d27685a68}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\imports">
-         <UniqueIdentifier>{860511ed-9da8-449d-bd04-b0dcc05f3c21}</UniqueIdentifier>
+         <UniqueIdentifier>{39caeb22-50c2-42f7-99ce-1daccb7371b7}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\imports\src">
-         <UniqueIdentifier>{007b4ec6-e830-4bbf-9635-e7aff51ff953}</UniqueIdentifier>
+         <UniqueIdentifier>{56a777d0-83d0-4b35-9694-7d0b44da8bdb}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\init_fini">
-         <UniqueIdentifier>{bb54541d-e58c-4ff2-841d-1049c1ed1865}</UniqueIdentifier>
+         <UniqueIdentifier>{41deeb25-c7cf-4488-8e31-a14f214babae}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\init_fini\src">
-         <UniqueIdentifier>{b40dc457-f8b6-4601-b794-8d00a713de73}</UniqueIdentifier>
+         <UniqueIdentifier>{55ec7cfc-44e6-4a6c-8178-c2a8e62c9578}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\profile">
-         <UniqueIdentifier>{a90ea5bd-41ec-4641-b2c9-235748ed202b}</UniqueIdentifier>
+         <UniqueIdentifier>{4b1ecbd2-d906-47a1-99b9-7ca122917f47}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\profile\src">
-         <UniqueIdentifier>{15dea35c-7e52-4e94-87aa-4c20540283b3}</UniqueIdentifier>
+         <UniqueIdentifier>{ee129b49-df88-453d-a040-210dc4ce865e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\shared">
-         <UniqueIdentifier>{f8c7bfe0-09a7-4e5f-8c21-8d713ed52497}</UniqueIdentifier>
+         <UniqueIdentifier>{868d2e64-6752-4c44-89e0-545de47cf01b}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\shared\src">
-         <UniqueIdentifier>{a5a9d27b-3e9c-45e7-878e-61dd2158014f}</UniqueIdentifier>
+         <UniqueIdentifier>{fa3a9d59-864d-40c0-85fb-d06299949602}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\stdcpp">
-         <UniqueIdentifier>{e13d5b3f-d484-4c58-975e-150db26dff4f}</UniqueIdentifier>
+         <UniqueIdentifier>{c422eef5-58a0-46eb-8744-ce56cac3ee0e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\stdcpp\src">
-         <UniqueIdentifier>{92af16f7-1244-40c6-9b46-0000994f6247}</UniqueIdentifier>
+         <UniqueIdentifier>{be19f72a-1b09-4d11-ba92-a3e0d68b8301}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\thread">
-         <UniqueIdentifier>{34f09b61-808f-4c44-8ec8-6a92055af68d}</UniqueIdentifier>
+         <UniqueIdentifier>{0cfdc252-cf8b-4c99-a4d8-281ba70d2dd6}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\thread\src">
-         <UniqueIdentifier>{bf3c4a9f-f03c-400b-a902-0a405d1125c7}</UniqueIdentifier>
+         <UniqueIdentifier>{7b6e075a-c11c-401a-b7cb-24a4427486b8}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\typeinfo">
-         <UniqueIdentifier>{19d7d01b-5916-4617-bb9f-ca818e156cb2}</UniqueIdentifier>
+         <UniqueIdentifier>{8c18b7d9-ebac-495b-b25b-7a8eb544267e}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\typeinfo\src">
-         <UniqueIdentifier>{769bb3c7-0061-4bcf-a73c-ed8b51f4964f}</UniqueIdentifier>
+         <UniqueIdentifier>{5bf9e0af-0442-4782-aa9a-4ec3bdd67cab}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\unittest">
-         <UniqueIdentifier>{b730b37c-0050-42e0-a4f5-4c3ceba60d81}</UniqueIdentifier>
+         <UniqueIdentifier>{11b7f541-7a10-4ad7-934a-6e6dea0834b1}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
       <Filter Include="test\uuid">
-         <UniqueIdentifier>{b1e9d9c6-8f71-478f-8dc1-4deabcae2fff}</UniqueIdentifier>
+         <UniqueIdentifier>{5c98c6b1-ef2c-4917-b724-0e17f8fab27a}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
    <ItemGroup>
@@ -545,7 +570,22 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\elf\dl.d">
+         <Filter>src\core\internal\elf</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\elf\io.d">
+         <Filter>src\core\internal\elf</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\internal\entrypoint.d">
+         <Filter>src\core\internal</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\execinfo.d">
          <Filter>src\core\internal</Filter>
       </DCompile>
    </ItemGroup>
@@ -602,6 +642,16 @@
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\internal\util\array.d">
          <Filter>src\core\internal\util</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\vararg\aarch64.d">
+         <Filter>src\core\internal\vararg</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\internal\vararg\sysv_x64.d">
+         <Filter>src\core\internal\vararg</Filter>
       </DCompile>
    </ItemGroup>
    <ItemGroup>
@@ -760,6 +810,11 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\memory.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\stdcpp\new_.d">
          <Filter>src\core\stdcpp</Filter>
       </DCompile>
@@ -781,6 +836,11 @@
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\stdcpp\type_traits.d">
+         <Filter>src\core\stdcpp</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\stdcpp\utility.d">
          <Filter>src\core\stdcpp</Filter>
       </DCompile>
    </ItemGroup>
@@ -895,12 +955,22 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\nlist.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\port.d">
          <Filter>src\core\sys\darwin\mach</Filter>
       </DCompile>
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\semaphore.d">
+         <Filter>src\core\sys\darwin\mach</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\darwin\mach\stab.d">
          <Filter>src\core\sys\darwin\mach</Filter>
       </DCompile>
    </ItemGroup>
@@ -1450,6 +1520,11 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\locale.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\posix\mqueue.d">
          <Filter>src\core\sys\posix</Filter>
       </DCompile>
@@ -1515,12 +1590,27 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\stdc\time.d">
+         <Filter>src\core\sys\posix\stdc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\posix\stdio.d">
          <Filter>src\core\sys\posix</Filter>
       </DCompile>
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\posix\stdlib.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\string.d">
+         <Filter>src\core\sys\posix</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\posix\strings.d">
          <Filter>src\core\sys\posix</Filter>
       </DCompile>
    </ItemGroup>
@@ -2315,6 +2405,11 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\sdkddkver.d">
+         <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\windows\secext.d">
          <Filter>src\core\sys\windows</Filter>
       </DCompile>
@@ -2397,6 +2492,11 @@
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\core\sys\windows\stat.d">
          <Filter>src\core\sys\windows</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\sys\windows\stdc\time.d">
+         <Filter>src\core\sys\windows\stdc</Filter>
       </DCompile>
    </ItemGroup>
    <ItemGroup>
@@ -2560,8 +2660,23 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
-      <DCompile Include="..\..\druntime\src\core\thread.d">
-         <Filter>src\core</Filter>
+      <DCompile Include="..\..\druntime\src\core\thread\context.d">
+         <Filter>src\core\thread</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\thread\fiber.d">
+         <Filter>src\core\thread</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\thread\osthread.d">
+         <Filter>src\core\thread</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\core\thread\package.d">
+         <Filter>src\core\thread</Filter>
       </DCompile>
    </ItemGroup>
    <ItemGroup>
@@ -2796,6 +2911,11 @@
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\src\rt\sections_android.d">
+         <Filter>src\rt</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\src\rt\sections_darwin_64.d">
          <Filter>src\rt</Filter>
       </DCompile>
    </ItemGroup>
@@ -3125,7 +3245,17 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\test\betterc\src\test19924.d">
+         <Filter>test\betterc\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\test\betterc\src\test20088.d">
+         <Filter>test\betterc\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\betterc\src\test20613.d">
          <Filter>test\betterc\src</Filter>
       </DCompile>
    </ItemGroup>
@@ -3141,6 +3271,11 @@
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\test\config\src\test19433.d">
+         <Filter>test\config\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\config\src\test20459.d">
          <Filter>test\config\src</Filter>
       </DCompile>
    </ItemGroup>
@@ -3250,6 +3385,11 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\test\exceptions\src\refcounted.d">
+         <Filter>test\exceptions\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\test\exceptions\src\rt_trap_exceptions.d">
          <Filter>test\exceptions\src</Filter>
       </DCompile>
@@ -3280,12 +3420,57 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\test\exceptions\src\winstack.d">
+         <Filter>test\exceptions\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="..\..\druntime\test\exceptions\win64.mak">
+         <Filter>test\exceptions</Filter>
+      </None>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\crash.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\forkgc.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\forkgc2.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <None Include="..\..\druntime\test\gc\Makefile">
          <Filter>test\gc</Filter>
       </None>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\nocollect.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <DCompile Include="..\..\druntime\test\gc\precisegc.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\recoverfree.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\sigmaskgc.d">
+         <Filter>test\gc</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\gc\startbackgc.d">
          <Filter>test\gc</Filter>
       </DCompile>
    </ItemGroup>
@@ -3505,6 +3690,16 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <ClCompile Include="..\..\druntime\test\stdcpp\src\memory.cpp">
+         <Filter>test\stdcpp\src</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\stdcpp\src\memory_test.d">
+         <Filter>test\stdcpp\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <ClCompile Include="..\..\druntime\test\stdcpp\src\new.cpp">
          <Filter>test\stdcpp\src</Filter>
       </ClCompile>
@@ -3531,6 +3726,16 @@
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\test\stdcpp\src\string_view_test.d">
+         <Filter>test\stdcpp\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="..\..\druntime\test\stdcpp\src\utility.cpp">
+         <Filter>test\stdcpp\src</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\stdcpp\src\utility_test.d">
          <Filter>test\stdcpp\src</Filter>
       </DCompile>
    </ItemGroup>
@@ -3565,12 +3770,32 @@
       </DCompile>
    </ItemGroup>
    <ItemGroup>
+      <DCompile Include="..\..\druntime\test\thread\src\test_import.d">
+         <Filter>test\thread\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\thread\src\tlsgc_sections.d">
+         <Filter>test\thread\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\thread\src\tlsstack.d">
+         <Filter>test\thread\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
       <None Include="..\..\druntime\test\typeinfo\Makefile">
          <Filter>test\typeinfo</Filter>
       </None>
    </ItemGroup>
    <ItemGroup>
       <DCompile Include="..\..\druntime\test\typeinfo\src\comparison.d">
+         <Filter>test\typeinfo\src</Filter>
+      </DCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <DCompile Include="..\..\druntime\test\typeinfo\src\isbaseof.d">
          <Filter>test\typeinfo\src</Filter>
       </DCompile>
    </ItemGroup>

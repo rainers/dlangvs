@@ -212,7 +212,6 @@
     <DMDModel Condition="'$(PlatformName)' == 'x64'">64</DMDModel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\dmd\test\tools\*.d" />
     <CustomBuild Include="..\..\dmd\test\run.d">
       <FileType>Document</FileType>
       <Command>cd %(RelativeDir)
@@ -229,12 +228,27 @@ set PATH=$(bash_path);%PATH%
       <Message>Executing: MODEL=$(DMDModel) DMD_MODEL=$(Platform) $(DMDBinDir)rdmd.exe" -I.. %(Identity)</Message>
       <Outputs>$(run_exe);$(IntDir)\run.done</Outputs>
       <AdditionalInputs>$(test_dmd)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cd %(RelativeDir)
+set ARGS=
+set ARGS=-O -inline -g
+set MODEL=$(DMDModel)
+set BUILD=$(Configuration)
+set DMD_MODEL=$(Platform)
+set HOST_DMD=$(DMDBinDir)dmd.exe
+set RESULTS_DIR=$(IntDir)test_results
+set CC=cl.exe
+set PATH=$(bash_path);%PATH%
+"$(DMDBinDir)rdmd.exe" -I.. %(Identity) &amp;&amp; echo Success &gt; "$(IntDir)run.done"</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\dmd\test\tools\dshell_prebuilt\dshell_prebuilt.d">
       <FileType>Document</FileType>
     </None>
+    <None Include="..\..\dmd\test\tools\d_do_test.d" />
+    <None Include="..\..\dmd\test\tools\paths.d" />
+    <None Include="..\..\dmd\test\tools\sanitize_json.d" />
+    <None Include="..\..\dmd\test\tools\unit_test_runner.d" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
