@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)run_test.xml" />
+    <AvailableItemName Include="RunTest">
+      <Targets>_RunTest</Targets>
+    </AvailableItemName>
+  </ItemGroup>
+
+  <Target Name="_RunTest" Condition="'@(RunTest)' != ''" BeforeTargets="ClCompile">
+    <Message Importance="High" Text="Running Tests %(RunTest.Tests) %(RunTest.ARGS)..." />
+    <PropertyGroup>
+      <ForceOpt Condition="'%(RunTest.Force)' == 'true'">-f</ForceOpt>
+    </PropertyGroup>
+    <Exec Command="cd %(RelativeDir)
+set ARGS= %(RunTest.ARGS)
+set MODEL=$(DMDModel)
+set BUILD=$(Configuration)
+set DMD_MODEL=$(Platform)
+set HOST_DMD=$(DMDBinDir)dmd.exe
+set RESULTS_DIR=$(IntDir)test_results
+set CC=cl.exe
+set PATH=$(bash_path);%PATH%
+&quot;$(DMDBinDir)rdmd.exe&quot; -I.. %(Identity) $(ForceOpt) %(RunTest.Tests) &amp;&amp; echo Success &gt; &quot;$(IntDir)run.done&quot;" />
+  </Target>
+</Project>

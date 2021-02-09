@@ -11,9 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\dmd\test\run.d" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\dmd\test\tools\dshell_prebuilt\dshell_prebuilt.d">
       <Filter>tools\dshell_prebuilt</Filter>
     </None>
@@ -21,5 +18,8 @@
     <None Include="..\..\dmd\test\tools\paths.d" />
     <None Include="..\..\dmd\test\tools\sanitize_json.d" />
     <None Include="..\..\dmd\test\tools\unit_test_runner.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <RunTest Include="..\..\dmd\test\run.d" />
   </ItemGroup>
 </Project>

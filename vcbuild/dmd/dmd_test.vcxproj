@@ -188,6 +188,9 @@
       <DebugCode>Release</DebugCode>
       <DebugInfo>Mago</DebugInfo>
     </DCompile>
+    <RunTest>
+      <ARGS Condition="'$(Configuration)'=='Release'">-O -inline -g</ARGS>
+    </RunTest>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\dmd\src\vcbuild\dmd.vcxproj">
@@ -212,34 +215,7 @@
     <DMDModel Condition="'$(PlatformName)' == 'x64'">64</DMDModel>
   </PropertyGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\dmd\test\run.d">
-      <FileType>Document</FileType>
-      <Command>cd %(RelativeDir)
-set ARGS=
-set ARGS= %ARGS%
-set MODEL=$(DMDModel)
-set BUILD=$(Configuration)
-set DMD_MODEL=$(Platform)
-set HOST_DMD=$(DMDBinDir)dmd.exe
-set RESULTS_DIR=$(IntDir)test_results
-set CC=cl.exe
-set PATH=$(bash_path);%PATH%
-"$(DMDBinDir)rdmd.exe" -I.. %(Identity) &amp;&amp; echo Success &gt; "$(IntDir)run.done"</Command>
-      <Message>Executing: MODEL=$(DMDModel) DMD_MODEL=$(Platform) $(DMDBinDir)rdmd.exe" -I.. %(Identity)</Message>
-      <Outputs>$(run_exe);$(IntDir)\run.done</Outputs>
-      <AdditionalInputs>$(test_dmd)</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cd %(RelativeDir)
-set ARGS=
-set ARGS=-O -inline -g
-set MODEL=$(DMDModel)
-set BUILD=$(Configuration)
-set DMD_MODEL=$(Platform)
-set HOST_DMD=$(DMDBinDir)dmd.exe
-set RESULTS_DIR=$(IntDir)test_results
-set CC=cl.exe
-set PATH=$(bash_path);%PATH%
-"$(DMDBinDir)rdmd.exe" -I.. %(Identity) &amp;&amp; echo Success &gt; "$(IntDir)run.done"</Command>
-    </CustomBuild>
+    <RunTest Include="..\..\dmd\test\run.d" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\dmd\test\tools\dshell_prebuilt\dshell_prebuilt.d">
@@ -251,6 +227,7 @@ set PATH=$(bash_path);%PATH%
     <None Include="..\..\dmd\test\tools\unit_test_runner.d" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="run_test.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright, Microsoft Corporation, All rights reserved.-->
+<ProjectSchemaDefinitions xmlns="http://schemas.microsoft.com/build/2009/properties" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <Rule Name="RunTest"
+        PageTemplate="tool"
+        DisplayName="Run dmd test suite"
+        SwitchPrefix=""
+        Order="300">
+
+    <Rule.Categories>
+      <Category Name="General" DisplayName="General" />
+    </Rule.Categories>
+
+    <Rule.DataSource>
+      <DataSource Persistence="ProjectFile" ItemType="RunTest" Label="" HasConfigurationCondition="true" />
+    </Rule.DataSource>
+
+    <StringProperty Name="Tests" DisplayName="Tests to run"
+                    Description="The tests to build and run. Leave empty for all tests."
+                    Category="General" Switch="">
+    </StringProperty>
+    <StringProperty Name="ARGS" DisplayName="Test Arguments"
+                    Description="Arguments to permute when building and running tests."
+                    Category="General" Switch="">
+    </StringProperty>
+    <BoolProperty Name="Force" DisplayName="Force rebuild of test"
+      Description="Force rebiuilding the test even if it is uptodate"
+      Switch="" />
+
+  </Rule>
+
+  <ItemType Name="RunTest" DisplayName="Run DMD Test" />
+  <ContentType Name="RunTest" DisplayName="Run DMD Test" ItemType="RunTest" />
+  
+</ProjectSchemaDefinitions>
